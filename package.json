@@ -1,0 +1,13 @@
+{
+  "name": "encore-ticket-design",
+  "version": "0.1.0",
+  "private": true,
+  "description": "콘서트 티켓팅 인터랙티브 디자인 시안",
+  "type": "module",
+  "engines": { "node": ">=20.11" },
+  "scripts": {
+    "dev": "node preview.mjs",
+    "start": "node preview.mjs",
+    "check": "node --check public/app.js && node --check preview.mjs"
+  }
+}
